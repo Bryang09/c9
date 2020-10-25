@@ -1,0 +1,40 @@
+.Footer {
+  height: 70px;
+  width: 100vw;
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.2);
+
+  .footerContainer {
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+    .copyright {
+      display: flex;
+      justify-content: flex-start;
+      color: #fff;
+      width: 40%;
+
+      h4 {
+        font-weight: 400;
+      }
+    }
+
+    .links {
+      width: 60%;
+      display: flex;
+      justify-content: flex-end;
+
+      i {
+        margin: 0 0.9vw;
+        cursor: pointer;
+        color: #1affab;
+      }
+    }
+  }
+}
