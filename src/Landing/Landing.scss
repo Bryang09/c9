@@ -7,3 +7,9 @@ $main-color: "#1AFFAB";
   background: rgba(0, 0, 0, 0.9);
   font-family: "Montserrat", sans-serif;
 }
+
+@media screen and (max-width: 768px) {
+  .landingMain {
+    height: 100%;
+  }
+}

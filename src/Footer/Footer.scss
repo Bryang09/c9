@@ -6,6 +6,9 @@
   bottom: 0;
   left: 0;
   background: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   .footerContainer {
     width: 90vw;
@@ -19,9 +22,11 @@
       justify-content: flex-start;
       color: #fff;
       width: 40%;
+      align-items: center;
 
       h4 {
         font-weight: 400;
+        margin: 0;
       }
     }
 
@@ -36,5 +41,14 @@
         color: #1affab;
       }
     }
+  }
+}
+@media screen and (max-width: 768px) {
+  .Footer {
+    position: relative;
+  }
+
+  .fa-2x {
+    font-size: 1.7em;
   }
 }
