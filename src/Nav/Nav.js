@@ -13,7 +13,12 @@ const Nav = () => {
         </Link>
       </div>
       <div className="links">
-        <h4>About</h4>
+        <h4>
+          <Link to="/not-available">About</Link>
+        </h4>
+        {/* <h4>
+          <Link to="/about">About</Link>
+        </h4> */}
         <h4>
           <a href="https://www.amazon.com/dp/B08DKD52T4">Shop</a>
         </h4>

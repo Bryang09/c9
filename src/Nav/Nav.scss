@@ -51,10 +51,8 @@
 }
 
 @media screen and (max-width: 992px) {
-}
-@media screen and (max-width: 768px) {
   .Nav {
-    position: relative;
+    position: absolute;
     flex-direction: column;
     height: 20vh;
     background: rgba(0, 0, 0, 0.26);

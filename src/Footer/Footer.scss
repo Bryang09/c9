@@ -43,12 +43,21 @@
     }
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .Footer {
-    position: relative;
+    position: absolute;
   }
 
   .fa-2x {
     font-size: 1.7em;
+  }
+}
+@media screen and (max-width: 600px) {
+  .Footer {
+    .footerContainer {
+      h4 {
+        font-size: 14px;
+      }
+    }
   }
 }

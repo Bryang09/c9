@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import Landing from "./Landing/Landing";
+import Routes from "./Routes";
 
 import { BrowserRouter } from "react-router-dom";
 
@@ -11,7 +11,7 @@ import reportWebVitals from "./reportWebVitals";
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-      <Landing />
+      <Routes />
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById("root")

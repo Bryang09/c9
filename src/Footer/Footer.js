@@ -11,7 +11,10 @@ class Footer extends Component {
           </div>
           <div className="links">
             <div class="logos">
-              <i class="fab fa-facebook fa-2x"></i>
+              <a href="https://www.facebook.com/cloud9lifestylellc">
+                <i class="fab fa-facebook fa-2x"></i>
+              </a>
+
               <i class="fab fa-instagram fa-2x"></i>
               <i class="fab fa-twitter fa-2x"></i>
               <i class="fab fa-snapchat fa-2x"></i>
